@@ -123,8 +123,7 @@ else
   echo ${config_opening}'
   "extends": [
     "airbnb",
-    "plugin:prettier/recommended",
-    "prettier/react"
+    "plugin:prettier/recommended"
   ],
   "env": {
     "browser": true,
@@ -134,8 +133,6 @@ else
     "node": true
   },
   "rules": {
-    "jsx-a11y/href-no-hash": ["off"],
-    "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
     "max-len": [
       "warn",
       {
